@@ -21,7 +21,7 @@ promPracticas = (practica1 + practica2)/2;
 promedioFinal = promParcial*0.25 + promPracticas*0.25 + examenFinal*0.5;
 
 if(promedioFinal>10){
-    alert("El Alumno Aprobo con toda de: "+ promedioFinal.toFixed(2));
+    alert("El Alumno Aprobo con nota de: "+ promedioFinal.toFixed(2));
 }else{
     alert("");
 }
